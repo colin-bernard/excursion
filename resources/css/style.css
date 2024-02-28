@@ -1,23 +1,106 @@
-.main-page{
-    background-color:black;   
+*{
+    margin:0;
+    padding:0;
+
 }
 
+.main-page{
+    background:black;
+    background-size:cover;
+    Background-position:center;
+    height:100vh; 
+    width:100vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+
+/*HEADER*/
+
 .header{
-    width:100%;
-    margin-top:40px;
-    background-color: red;
+    width:100%;    
     display:flex;
     flex-direction:column;
     justify-content: center;
 }
 
-h1{
+.header h1{
     color:white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:100px;
+    padding-left:7px;
+    padding-right:7px;
+    padding-bottom:40px;
     text-align:center;
 }
 
-a{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.header a{
     text-align:center;
+    color:white;
+    padding-bottom:40px;
+
+}
+
+/*DESCRIPTION*/
+
+.description{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.description h2{
+    color:white;
+    text-align:center;
+    padding-bottom:30px;
+}
+
+.description p {
+    color:gray;
+    text-align:center;
+    padding-bottom:50px;
+}
+
+
+
+
+/*FOOTER*/
+
+.footer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.footer h2{
+    color:white;
+    text-align:center;
+}
+.footer a{
+    text-align:center;
+    color:white;
+
+}
+
+
+
+
+
+
+/*IMAGE*/
+
+.camp{
+    display:flex;
+    flex-direction:column;
+}
+
+
+/*ICON*/
+
+.phone {
+  display:flex;
+  justify-content:center;
+}
+
+
+#phone{
+  padding:50px;  
 }
